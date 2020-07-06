@@ -14,7 +14,9 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	val, err := ctx.RunScript(string(content), "value.js")
+	newCont := "let testVar='yas';" + string(content)
+	//val, err := ctx.RunScript(string(content), "value.js")
+	val, err := ctx.RunScript(string(newCont), "value.js")
 	if err != nil {
 		fmt.Println(err)
 	}

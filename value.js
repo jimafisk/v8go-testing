@@ -2,7 +2,8 @@
 
 function dothing() {
     //fs.mkdirSync("worked");
-    return "hey";
+    //return "hey";
+    return testVar;
 }
 
 dothing();
