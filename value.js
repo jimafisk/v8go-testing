@@ -1,11 +1,13 @@
 //const fs = require('fs');
 
-function dothing() {
+//function dothing() {
     //fs.mkdirSync("worked");
     //return "hey";
-    return testVar;
-}
+//    return testVar;
+//}
 
-dothing();
+//dothing();
+
+(() => testVar)();
 
 //export default yo;
